@@ -18,7 +18,7 @@ export function Header() {
             href="#"
             aria-label="Brand"
           >
-            <span className="inline-flex items-center gap-x-2 text-xl font-semibold">
+            <span className="inline-flex items-center gap-x-2 text-xl font-semibold text-white">
               <svg
                 className="w-10 h-auto"
                 width="100"
@@ -119,10 +119,14 @@ export function Header() {
             </a>
             <a
               className="font-medium text-gray-200 hover:text-gray-400 focus:outline-none focus:text-gray-400"
-              href="#"
+              href="#
+              
+              
+              "
               onClick={() => setIsOpen(false)}
             >
               Contato
+              
             </a>
           </div>
         </div>
