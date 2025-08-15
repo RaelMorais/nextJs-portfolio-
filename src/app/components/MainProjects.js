@@ -70,7 +70,7 @@ const projects = [
 
 const all_projects = [
   {
-    title: "Collage.fm",
+    title: "Ye Api",
     image: "https://images.unsplash.com/photo-1510525008581-229206d28945?q=80&w=2070&auto=format&fit=crop",
     alt: "Collage.fm",
     technologies: [
@@ -91,7 +91,7 @@ const all_projects = [
     link: "https://collage.fm",
   },
   {
-    title: "The Movie Guide",
+    title: "IsraFlix",
     image: "https://images.unsplash.com/photo-1485095329183-d0797cdc5676?q=80&w=2070&auto=format&fit=crop",
     alt: "The Movie Guide",
     technologies: [
@@ -112,7 +112,7 @@ const all_projects = [
     link: "https://movie-guide.com",
   },
   {
-    title: "Daily Weather",
+    title: "ToDo List",
     image: "https://images.unsplash.com/photo-1558455172-13ed3e215f7f?q=80&w=2070&auto=format&fit=crop",
     alt: "Daily Weather",
     technologies: [
@@ -133,7 +133,7 @@ const all_projects = [
     link: "https://daily-weather.com",
   },
     {
-    title: "Collage.fm",
+    title: "IsraMovies",
     image: "https://images.unsplash.com/photo-1510525008581-229206d28945?q=80&w=2070&auto=format&fit=crop",
     alt: "Collage.fm",
     technologies: [
@@ -154,7 +154,7 @@ const all_projects = [
     link: "https://collage.fm",
   },
     {
-    title: "Collage.fm",
+    title: "docs eLOGiar",
     image: "https://images.unsplash.com/photo-1510525008581-229206d28945?q=80&w=2070&auto=format&fit=crop",
     alt: "Collage.fm",
     technologies: [
@@ -174,7 +174,7 @@ const all_projects = [
     description: "A web app for creating and sharing photo collages with real-time collaboration features.",
     link: "https://collage.fm",
   },  {
-    title: "Collage.fm",
+    title: "eDUCar Docs",
     image: "https://images.unsplash.com/photo-1510525008581-229206d28945?q=80&w=2070&auto=format&fit=crop",
     alt: "Collage.fm",
     technologies: [
