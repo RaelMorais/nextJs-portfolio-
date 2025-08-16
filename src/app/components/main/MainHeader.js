@@ -1,12 +1,17 @@
+const meImage = '/photos/me.jpg';
 export function MainHeader(){
     return(
     <>
-      <div className="mb-8">
-        <div className="w-56 h-56 rounded-full border-4 border-purple-600 bg-purple-900 shadow-lg shadow-purple-800"></div>
-      </div>
+        <div className="w-56 h-56 rounded-full border-4 border-purple-600  shadow-lg shadow-purple-800 overflow-hidden">
+            <img 
+              src={meImage}
+              alt="Israel Santana" 
+              className="w-full h-full object-cover" 
+            />
+          </div>
 
    
-      <h2 className="text-3xl font-semibold mb-2 text-center">
+      <h2 className="text-3xl font-semibold mb-2 text-center pt-3">
         Olá, me chamo{" "}
         <span className="text-purple-700 hover:text-purple-500 transition-colors">
           Israel

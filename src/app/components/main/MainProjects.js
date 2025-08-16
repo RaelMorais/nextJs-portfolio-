@@ -1,32 +1,32 @@
 import React from 'react';
-
+const ferfolio = '/photos/ferfolio.png';
 export function MainProjects(){
-    
+
 const projects = [
   {
     title: "eDUcar",
-    image: "https://images.unsplash.com/photo-1510525008581-229206d28945?q=80&w=2070&auto=format&fit=crop",
+    image: "https://kinsta.com/wp-content/uploads/2020/08/tiger-jpg.jpg",
     alt: "Collage.fm",
     technologies: [
       {
-        name: "Next.js",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        name: "Django",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
       },
       {
         name: "React",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
-        name: "TypeScript",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        name: "JavaScript",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       },
     ],
-    description: "A web app for creating and sharing photo collages with real-time collaboration features.",
+    description: "Projeto integrador desenvolvido no 2º semestre do Senai. ",
     link: "https://collage.fm",
   },
   {
-    title: "FerFolio",
-    image: "https://images.unsplash.com/photo-1485095329183-d0797cdc5676?q=80&w=2070&auto=format&fit=crop",
+    title: "",
+    image: ferfolio,
     alt: "The Movie Guide",
     technologies: [
       {
@@ -42,12 +42,12 @@ const projects = [
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       },
     ],
-    description: "A movie recommendation platform with detailed reviews and personalized suggestions.",
-    link: "https://movie-guide.com",
+    description: "Projeto desenvolvido como somativa da máteria de PWFE.",
+    link: "https://entregapwfe.vercel.app/index.html",
   },
   {
     title: "Mange Ferramentas",
-    image: "https://images.unsplash.com/photo-1558455172-13ed3e215f7f?q=80&w=2070&auto=format&fit=crop",
+    image: "https://private-user-images.githubusercontent.com/125073383/393561006-2a7fedef-ab6a-403e-8ff5-edd90a0890a6.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTUzMDk2MTYsIm5iZiI6MTc1NTMwOTMxNiwicGF0aCI6Ii8xMjUwNzMzODMvMzkzNTYxMDA2LTJhN2ZlZGVmLWFiNmEtNDAzZS04ZmY1LWVkZDkwYTA4OTBhNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgxNlQwMTU1MTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01YmUwNWZiYjEwMTAyYjNmNTkzMGQ3Mzk4MzA3ZGFiYjE0NjgzOTU4MjQzYzUyMzZmOGY4M2NjY2QxODY4MGJiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.2OJseh5DSROFAXQoN-4OJgviGd43C1b8jZEUd4bC0LQ",
     alt: "Daily Weather",
     technologies: [
       {

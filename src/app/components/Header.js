@@ -1,5 +1,5 @@
 "use client";
-
+import Link from 'next/link';
 import React, { useState } from "react";
 
 export function Header() {
@@ -85,7 +85,7 @@ export function Header() {
         >
           <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
             <a
-              className="font-medium text-blue-500 focus:outline-none"
+              className="font-medium text-purple-500 focus:outline-none"
               href="#"
               aria-current="page"
               onClick={() => setIsOpen(false)}
@@ -94,7 +94,7 @@ export function Header() {
             </a>
             <a
               className="font-medium text-gray-200 hover:text-gray-400 focus:outline-none focus:text-gray-400"
-              href="#"
+              href="/aboutMe"
               onClick={() => setIsOpen(false)}
             >
               Stacks
@@ -115,6 +115,16 @@ export function Header() {
               onClick={() => setIsOpen(false)}
             >
               Contato
+              
+            </a>
+
+
+            <a
+              className="font-medium text-gray-200 hover:text-gray-400 focus:outline-none focus:text-gray-400"
+              href="/aboutMe"
+              onClick={() => setIsOpen(false)}
+            >
+              Sobre mim
               
             </a>
           </div>

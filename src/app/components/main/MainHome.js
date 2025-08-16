@@ -3,7 +3,7 @@ import { MainHeader } from './MainHeader';
 import { MainSkill } from './MainSkill';
 import { MainProjects } from './MainProjects';
 import { MainContacts } from './Contacts';
-import { Footer } from './Footer';
+import { Footer } from '../Footer';
 export function MainHome() {
   return (
     <div className="min-h-screen flex flex-col bg-black items-center pt-40 text-white px-6">
@@ -11,7 +11,6 @@ export function MainHome() {
      <MainSkill />
      <MainProjects />
      <MainContacts />
-     <Footer />
     </div>
   );
 }
