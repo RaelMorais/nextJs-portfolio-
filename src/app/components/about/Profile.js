@@ -21,7 +21,7 @@ export default function Profile(){
 
   return (
     <div className="pt-40">
-      <div className="border-2 border-black dark:border-white flex flex-col md:flex-row gap-4 w-full max-w-[900px] mx-auto p-4">
+      <div className="border-2 border-white flex flex-col md:flex-row gap-4 w-full max-w-[900px] mx-auto p-4">
         
         {/* Imagem */}
         <div className="p-2 flex justify-center">
@@ -35,9 +35,9 @@ export default function Profile(){
         {/* Texto */}
         <div className="flex flex-col flex-1 p-2 md:pt-20 text-center md:text-left">
           <h1 className="text-purple-600 font-bold text-2xl">Um pouco sobre mim</h1>
-          <p className="text-[32px] md:text-[50px] font-bold">Israel Santana</p>
-          <h1><span className="font-semibold">Fullstack Dev. & GenAI</span></h1>
-          <h2 className="text-sm md:text-base leading-relaxed">
+          <p className="text-[32px] md:text-[50px] font-bold text-gray-600">Israel Santana</p>
+          <h1><span className="font-semibold text-gray-600">Fullstack Dev. & GenAI</span></h1>
+          <h2 className="text-sm md:text-base leading-relaxed text-gray-600">
             Me chamo Israel Santana, tenho {getAge()} anos. 
             Management at Fatec. Atualmente, trabalho como aprendiz na Bosch Brasil, onde busco me desenvolver 
             profissionalmente e pessoalmente, sempre em busca de crescimento e aquisição de conhecimento. 
