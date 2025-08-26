@@ -5,18 +5,18 @@ export function MainContacts(){
  
 // Array de dados para os contatos
 const contatosData = [
-  {
-    icon: FaEnvelope,
-    label: 'E-mail',
-    value: 'israelsantanamorais@outlook.com',
-    link: 'mailto:israelsantanamorais@outlook.com',
-  },
-  {
-    icon: FaPhone,
-    label: 'Telefone',
-    value: '(11) 91111-9098',
-    link: 'tel:',
-  },
+  // {
+  //   icon: FaEnvelope,
+  //   label: 'E-mail',
+  //   value: 'israelsantanamorais@outlook.com',
+  //   link: 'mailto:israelsantanamorais@outlook.com',
+  // },
+  // {
+  //   icon: FaPhone,
+  //   label: 'Telefone',
+  //   value: '(11) 91111-9098',
+  //   link: 'tel:',
+  // },
   {
     icon: FaLinkedin,
     label: 'Linkedin',

@@ -1,5 +1,9 @@
 import React from 'react';
 const ferfolio = '/photos/ferfolio.png';
+const mange = '/photos/mange.png'; 
+const yeapi = '/photos/yeapi.png'; 
+const hpdex  = '/photos/hpdex.png'; 
+const fast = '/photos/fastapi.png'
 export function MainProjects(){
 
 const projects = [
@@ -47,8 +51,8 @@ const projects = [
   },
   {
     title: "Mange Ferramentas",
-    image: "https://private-user-images.githubusercontent.com/125073383/393561006-2a7fedef-ab6a-403e-8ff5-edd90a0890a6.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTUzMDk2MTYsIm5iZiI6MTc1NTMwOTMxNiwicGF0aCI6Ii8xMjUwNzMzODMvMzkzNTYxMDA2LTJhN2ZlZGVmLWFiNmEtNDAzZS04ZmY1LWVkZDkwYTA4OTBhNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgxNlQwMTU1MTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01YmUwNWZiYjEwMTAyYjNmNTkzMGQ3Mzk4MzA3ZGFiYjE0NjgzOTU4MjQzYzUyMzZmOGY4M2NjY2QxODY4MGJiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.2OJseh5DSROFAXQoN-4OJgviGd43C1b8jZEUd4bC0LQ",
-    alt: "Daily Weather",
+    image: mange, 
+    alt: "Mange-Home",
     technologies: [
       {
         name: "HTML",
@@ -63,58 +67,16 @@ const projects = [
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       },
     ],
-    description: "A simple weather app providing daily forecasts with a clean and intuitive interface.",
-    link: "https://daily-weather.com",
+    description: "Projeto integrador do 1º Semestre de 2024.",
+    link: "https://github.com/RaelMorais/Integrador_Senai",
   },
 ];
 
 const all_projects = [
   {
     title: "Ye Api",
-    image: "https://images.unsplash.com/photo-1510525008581-229206d28945?q=80&w=2070&auto=format&fit=crop",
-    alt: "Collage.fm",
-    technologies: [
-      {
-        name: "Next.js",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-      },
-      {
-        name: "React",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      },
-      {
-        name: "TypeScript",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      },
-    ],
-    description: "A web app for creating and sharing photo collages with real-time collaboration features.",
-    link: "https://collage.fm",
-  },
-  {
-    title: "IsraFlix",
-    image: "https://images.unsplash.com/photo-1485095329183-d0797cdc5676?q=80&w=2070&auto=format&fit=crop",
-    alt: "The Movie Guide",
-    technologies: [
-      {
-        name: "React",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      },
-      {
-        name: "TypeScript",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      },
-      {
-        name: "CSS",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-      },
-    ],
-    description: "A movie recommendation platform with detailed reviews and personalized suggestions.",
-    link: "https://movie-guide.com",
-  },
-  {
-    title: "ToDo List",
-    image: "https://images.unsplash.com/photo-1558455172-13ed3e215f7f?q=80&w=2070&auto=format&fit=crop",
-    alt: "Daily Weather",
+    image: yeapi,
+    alt: "Kanye West API",
     technologies: [
       {
         name: "HTML",
@@ -129,71 +91,106 @@ const all_projects = [
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       },
     ],
-    description: "A simple weather app providing daily forecasts with a clean and intuitive interface.",
-    link: "https://daily-weather.com",
+    description: "Uso da api do YE para desenvolvimento de um projeto pessoal sobre api Rest.",
+    link: "https://yeapi.vercel.app/",
   },
-    {
-    title: "IsraMovies",
-    image: "https://images.unsplash.com/photo-1510525008581-229206d28945?q=80&w=2070&auto=format&fit=crop",
-    alt: "Collage.fm",
+  {
+    title: "HpDex",
+    image: hpdex,
+    alt: "Hp-Dex",
     technologies: [
-      {
-        name: "Next.js",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-      },
       {
         name: "React",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
-        name: "TypeScript",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        name: "JavaScript",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      },
+      {
+        name: "Tailwind",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       },
     ],
-    description: "A web app for creating and sharing photo collages with real-time collaboration features.",
-    link: "https://collage.fm",
+    description: "Projeto para aprender sobre API e React.",
+    link: "https://raelmorais.github.io/hp-dex/",
   },
-    {
-    title: "docs eLOGiar",
-    image: "https://images.unsplash.com/photo-1510525008581-229206d28945?q=80&w=2070&auto=format&fit=crop",
-    alt: "Collage.fm",
+  {
+    title: "F1 API",
+    image: fast, 
+    alt: "Codigo FASTAPI",
     technologies: [
       {
-        name: "Next.js",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        name: "FastAPI",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg",
       },
-      {
-        name: "React",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      },
-      {
-        name: "TypeScript",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      },
+    
     ],
-    description: "A web app for creating and sharing photo collages with real-time collaboration features.",
-    link: "https://collage.fm",
-  },  {
-    title: "eDUCar Docs",
-    image: "https://images.unsplash.com/photo-1510525008581-229206d28945?q=80&w=2070&auto=format&fit=crop",
-    alt: "Collage.fm",
-    technologies: [
-      {
-        name: "Next.js",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-      },
-      {
-        name: "React",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      },
-      {
-        name: "TypeScript",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      },
-    ],
-    description: "A web app for creating and sharing photo collages with real-time collaboration features.",
-    link: "https://collage.fm",
+    description: "API desenvolvida para aprender sobre Rest e FastAPI.",
+    link: "https://github.com/RaelMorais/fastAPI",
   },
+  //   {
+  //   title: "IsraMovies",
+  //   image: "https://images.unsplash.com/photo-1510525008581-229206d28945?q=80&w=2070&auto=format&fit=crop",
+  //   alt: "Collage.fm",
+  //   technologies: [
+  //     {
+  //       name: "Next.js",
+  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+  //     },
+  //     {
+  //       name: "React",
+  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  //     },
+  //     {
+  //       name: "TypeScript",
+  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+  //     },
+  //   ],
+  //   description: "A web app for creating and sharing photo collages with real-time collaboration features.",
+  //   link: "https://collage.fm",
+  // },
+  //   {
+  //   title: "docs eLOGiar",
+  //   image: "https://images.unsplash.com/photo-1510525008581-229206d28945?q=80&w=2070&auto=format&fit=crop",
+  //   alt: "Collage.fm",
+  //   technologies: [
+  //     {
+  //       name: "Next.js",
+  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+  //     },
+  //     {
+  //       name: "React",
+  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  //     },
+  //     {
+  //       name: "TypeScript",
+  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+  //     },
+  //   ],
+  //   description: "A web app for creating and sharing photo collages with real-time collaboration features.",
+  //   link: "https://collage.fm",
+  // },  {
+  //   title: "eDUCar Docs",
+  //   image: "https://images.unsplash.com/photo-1510525008581-229206d28945?q=80&w=2070&auto=format&fit=crop",
+  //   alt: "Collage.fm",
+  //   technologies: [
+  //     {
+  //       name: "Next.js",
+  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+  //     },
+  //     {
+  //       name: "React",
+  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  //     },
+  //     {
+  //       name: "TypeScript",
+  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+  //     },
+  //   ],
+  //   description: "A web app for creating and sharing photo collages with real-time collaboration features.",
+  //   link: "https://collage.fm",
+  // },
 ];
 const ProjectCard = ({ title, image, alt, technologies, description, link }) => {
     return (
@@ -205,14 +202,14 @@ const ProjectCard = ({ title, image, alt, technologies, description, link }) => 
           aria-label={alt}
         ></div>
         <div className="absolute inset-0 bg-opacity-50 flex flex-col justify-center items-center text-center p-4 transition-opacity duration-300 group-hover:bg-opacity-75">
-          <h4 className="text-white text-lg font-bold mb-2">{title}</h4>
+          <h4 className="text-blue-400 text-lg font-bold mb-2">{title}</h4>
           <div className="flex space-x-2 text-purple-500 mb-4">
             {technologies.map((tech, index) => (
               <img key={index} src={tech.src} alt={tech.name} className="w-6 h-6" />
             ))}
           </div>
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <p className="text-white text-sm mb-4">{description}</p>
+            <p className="text-black text-sm mb-4">{description}</p>
             <a
               href={link}
               className="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 transition"
