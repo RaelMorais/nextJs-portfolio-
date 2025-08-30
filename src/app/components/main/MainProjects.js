@@ -129,68 +129,72 @@ const all_projects = [
     description: "API desenvolvida para aprender sobre Rest e FastAPI.",
     link: "https://github.com/RaelMorais/fastAPI",
   },
-  //   {
-  //   title: "IsraMovies",
-  //   image: "https://images.unsplash.com/photo-1510525008581-229206d28945?q=80&w=2070&auto=format&fit=crop",
-  //   alt: "Collage.fm",
-  //   technologies: [
-  //     {
-  //       name: "Next.js",
-  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-  //     },
-  //     {
-  //       name: "React",
-  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-  //     },
-  //     {
-  //       name: "TypeScript",
-  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-  //     },
-  //   ],
-  //   description: "A web app for creating and sharing photo collages with real-time collaboration features.",
-  //   link: "https://collage.fm",
-  // },
-  //   {
-  //   title: "docs eLOGiar",
-  //   image: "https://images.unsplash.com/photo-1510525008581-229206d28945?q=80&w=2070&auto=format&fit=crop",
-  //   alt: "Collage.fm",
-  //   technologies: [
-  //     {
-  //       name: "Next.js",
-  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-  //     },
-  //     {
-  //       name: "React",
-  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-  //     },
-  //     {
-  //       name: "TypeScript",
-  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-  //     },
-  //   ],
-  //   description: "A web app for creating and sharing photo collages with real-time collaboration features.",
-  //   link: "https://collage.fm",
-  // },  {
-  //   title: "eDUCar Docs",
-  //   image: "https://images.unsplash.com/photo-1510525008581-229206d28945?q=80&w=2070&auto=format&fit=crop",
-  //   alt: "Collage.fm",
-  //   technologies: [
-  //     {
-  //       name: "Next.js",
-  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-  //     },
-  //     {
-  //       name: "React",
-  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-  //     },
-  //     {
-  //       name: "TypeScript",
-  //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-  //     },
-  //   ],
-  //   description: "A web app for creating and sharing photo collages with real-time collaboration features.",
-  //   link: "https://collage.fm",
-  // },
+    {
+    title: "EM BREVE...",
+    image: "",
+    alt: "Collage.fm",
+    technologies: [
+      // {
+      //   name: "Next.js",
+      //   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      // },
+      // {
+      //   name: "React",
+      //   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      // },
+      // {
+      //   name: "TypeScript",
+      //   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      // },
+    ],
+    description: "EM BREVE...",
+    link: "",
+  },
+   {
+    title: "EM BREVE...",
+    image: "",
+    alt: "Collage.fm",
+    technologies: [
+      // {
+      //   name: "Next.js",
+      //   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      // },
+      // {
+      //   name: "React",
+      //   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      // },
+      // {
+      //   name: "TypeScript",
+      //   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      // },
+    ],
+    description: "EM BREVE...",
+    link: "",
+  },
+   
+   {
+    title: "EM BREVE...",
+    image: "",
+    alt: "Collage.fm",
+    technologies: [
+      // {
+      //   name: "Next.js",
+      //   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      // },
+      // {
+      //   name: "React",
+      //   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      // },
+      // {
+      //   name: "TypeScript",
+      //   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      // },
+    ],
+    description: "EM BREVE...",
+    link: "",
+  },
+   
+   
 ];
 const ProjectCard = ({ title, image, alt, technologies, description, link }) => {
     return (
