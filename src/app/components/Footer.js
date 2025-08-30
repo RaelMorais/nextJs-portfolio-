@@ -20,18 +20,18 @@ export function Footer() {
         </span>
         <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
 
-          <SocialLink href="#" ariaLabel="LinkedIn page">
+          <SocialLink href="https://www.linkedin.com/in/israelstnmorais/" ariaLabel="LinkedIn page">
             <FaLinkedin className="w-6 h-6" />
             <span className="sr-only">LinkedIn page</span>
           </SocialLink>
             
           
-          <SocialLink href="#" ariaLabel="Github page">
+          <SocialLink href="https://github.com/RaelMorais" ariaLabel="Github page">
             <FaGithub className="w-6 h-6" />
             <span className="sr-only">Github page</span>
           </SocialLink>
 
-          <SocialLink href="#" ariaLabel="Steam page">
+          <SocialLink href="https://steamcommunity.com/id/real_rael06" ariaLabel="Steam page">
             <FaSteam className="w-6 h-6" />
             <span className="sr-only">Steam page</span>
           </SocialLink>
