@@ -4,48 +4,48 @@ import React from "react";
 
 const milestones = [
   {
-    year: "2025",
+    // year: "2025",
     title: "Finalização do Aprendizado",
     description:
       "Concluir a formação como Jovem Aprendiz na Bosch e no Senai, consolidando conhecimentos práticos em desenvolvimento de sistemas.",
     color: "border-purple-500",
   },
   {
-    year: "2026",
+    // year: "2026",
     title: "Transição para Carreira Júnior",
     description:
       "Início da atuação como Desenvolvedor Júnior, focando em aprofundar as habilidades em tecnologias e metodologias ágeis.",
     color: "border-blue-500",
   },
   {
-    year: "2026",
+    // year: "2026",
     title: "Especialização em Cloud e DevOps",
     description:
       "Iniciar certificações e projetos pessoais em Cloud Computing (AWS, Azure ou GCP) e ferramentas de DevOps como Docker e Kubernetes.",
     color: "border-green-500",
   },
   {
-    year: "2027",
+    // year: "2027",
     title: "Pós em Eng. Software",
     description: "Iniciar pós graduação em Engenharia de Software.",
     color: "border-green-500",
   },
   {
-    year: "2027-2028",
+    // year: "2027-2028",
     title: "Atuar como professor do Ensino Técnico",
     description:
       "Poder atuar como professor do ensino técnico no contra turno, podendo moldar o futuro através da educação e tecnologia.",
     color: "border-yellow-500",
   },
   {
-    year: "2029",
+    // year: "2029",
     title: "Especialista em DevOps",
     description:
       "Consolidar-se como profissional de DevOps, contribuindo ativamente para a automação de CI/CD e a otimização de infraestruturas.",
     color: "border-red-500",
   },
   {
-    year: "2029",
+    // year: "2029",
     title: "Aplicar mestrado",
     description:
       "Aplicar para mestrado, com foco em uma tese que una Tecnologia e Educação.",

@@ -15,7 +15,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <a
             className="flex-none text-xl font-semibold focus:outline-none focus:opacity-80"
-            href="#"
+            href="/"
             aria-label="Brand"
           >
             <span className="inline-flex items-center gap-x-2 text-xl font-semibold text-white">
@@ -92,21 +92,21 @@ export function Header() {
             >
               Home
             </a>
-            <a
+            {/* <a
               className="font-medium text-gray-200 hover:text-gray-400 focus:outline-none focus:text-gray-400"
               href="/aboutMe"
               onClick={() => setIsOpen(false)}
             >
               Stacks
-            </a>
-            <a
+            </a> */}
+            {/* <a
               className="font-medium text-gray-200 hover:text-gray-400 focus:outline-none focus:text-gray-400"
-              href="#"
+              href=""
               onClick={() => setIsOpen(false)}
             >
               Projetos
-            </a>
-            <a
+            </a> */}
+            {/* <a
               className="font-medium text-gray-200 hover:text-gray-400 focus:outline-none focus:text-gray-400"
               href="#
               
@@ -116,7 +116,7 @@ export function Header() {
             >
               Contato
               
-            </a>
+            </a> */}
 
 
             <a

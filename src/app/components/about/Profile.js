@@ -1,5 +1,6 @@
 // src/components/ProfileCard.jsx
 import React from 'react';
+const meImage = '/photos/me.jpg';
 
 export default function Profile(){
 
@@ -26,7 +27,7 @@ export default function Profile(){
         {/* Imagem */}
         <div className="p-2 flex justify-center">
           <img 
-            src="https://static.vecteezy.com/ti/fotos-gratis/p1/26409361-jaqueta-homem-bege-a-moda-estilo-retrato-pessoa-africano-modelo-americano-preto-moda-foto.jpg" 
+            src= {meImage} 
             alt="Israel Santana" 
             className="w-full max-w-[300px] h-auto md:h-[380px] object-cover"
           />
@@ -35,13 +36,13 @@ export default function Profile(){
         {/* Texto */}
         <div className="flex flex-col flex-1 p-2 md:pt-20 text-center md:text-left">
           <h1 className="text-purple-600 font-bold text-2xl">Um pouco sobre mim</h1>
-          <p className="text-[32px] md:text-[50px] font-bold text-gray-600">Israel Santana</p>
-          <h1><span className="font-semibold text-gray-600">Fullstack Dev. & GenAI</span></h1>
-          <h2 className="text-sm md:text-base leading-relaxed text-gray-600">
+          <p className="text-[32px] md:text-[50px] font-bold text-white-600">Israel Santana</p>
+          <h1><span className="font-semibold text-gray-600">Fullstack Dev. & AIoT</span></h1>
+          <h2 className="text-sm md:text-base leading-relaxed text-white-600">
             Me chamo Israel Santana, tenho {getAge()} anos. 
-            Management at Fatec. Atualmente, trabalho como aprendiz na Bosch Brasil, onde busco me desenvolver 
+            Gestão de Ti na Fatec. Atualmente, trabalho como aprendiz na Bosch Brasil, onde busco me desenvolver 
             profissionalmente e pessoalmente, sempre em busca de crescimento e aquisição de conhecimento. 
-            No futuro, aspiro atuar como profissional DevOps.
+            Após me formar na faculdade, pretendo atuar como professor do ensino técnico.
           </h2>
         </div>
       </div>

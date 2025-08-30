@@ -194,7 +194,7 @@ const all_projects = [
 ];
 const ProjectCard = ({ title, image, alt, technologies, description, link }) => {
     return (
-      <div className="relative group  overflow-hidden shadow-lg">
+      <div className="relative group  overflow-hidden shadow-lg" id='#projetos'>
         {/* Usando uma div com imagem de fundo */}
             <div
           className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105 bg-cover bg-center"

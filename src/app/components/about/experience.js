@@ -1,6 +1,13 @@
 import { useState } from "react";
-import { FaReact, FaNodeJs, FaJs, FaHtml5, FaCss3Alt, FaAws, FaDocker, FaGitAlt } from 'react-icons/fa';
-import { SiNextdotjs } from 'react-icons/si';
+import { 
+  FaReact, FaNodeJs, FaJs, FaHtml5, FaCss3Alt, FaAws, FaDocker, FaGitAlt, FaPhp, FaDatabase 
+} from 'react-icons/fa';
+import { 
+  SiNextdotjs, SiMicrosoftazure, SiSpringboot, SiGrafana, SiSonarqube, 
+  SiKubernetes, SiDjango, SiFastapi, SiN8N, SiDocusaurus, SiGraphql, 
+  SiVuedotjs, SiJenkins, SiTerraform, SiDatadog, SiSplunk, SiTensorflow, 
+  SiLangchain, SiPowerautomate, SiPostman, SiInsomnia, SiTailwindcss, SiAwslambda,  SiMysql, SiPostgresql
+} from 'react-icons/si';
 
 
 // Objeto de mapeamento para os ícones
@@ -13,7 +20,42 @@ const stackIcons = {
   'FaCss3Alt': FaCss3Alt,
   'FaAws': FaAws,
   'FaDocker': FaDocker,
-  'FaGitAlt': FaGitAlt
+  'FaGitAlt': FaGitAlt, 
+  'FaReact': FaReact,
+  'SiNextdotjs': SiNextdotjs,
+  'FaNodeJs': FaNodeJs,
+  'FaJs': FaJs,
+  'FaHtml5': FaHtml5,
+  'FaCss3Alt': FaCss3Alt,
+  'FaAws': FaAws,
+  'FaDocker': FaDocker,
+  'FaGitAlt': FaGitAlt,
+  'SiMicrosoftazure': SiMicrosoftazure,
+  'SiSpringboot': SiSpringboot,
+  'FaPhp': FaPhp,
+  'SiGrafana': SiGrafana,
+  'SiSonarqube': SiSonarqube,
+  'SiKubernetes': SiKubernetes,
+  'SiDjango': SiDjango,
+  'SiFastapi': SiFastapi,
+  'SiN8N': SiN8N,
+  'SiDocusaurus': SiDocusaurus,
+  'SiGraphql': SiGraphql,
+  'SiVuedotjs': SiVuedotjs,
+  'SiJenkins': SiJenkins,
+  'SiTerraform': SiTerraform,
+  'SiDatadog': SiDatadog,
+  'SiSplunk': SiSplunk,
+  'SiTensorflow': SiTensorflow,
+  'SiLangchain': SiLangchain,
+  'SiPowerautomate': SiPowerautomate,
+  'SiPostman': SiPostman,
+  'SiInsomnia': SiInsomnia,
+  'SiTailwindcss': SiTailwindcss,
+  'SiAwslambda': SiAwslambda, 
+  'SiMysql': SiMysql, 
+  'SiPostgresql':SiPostgresql, 
+  'FaDatabase': FaDatabase 
 };
 
 export default function Experience() {
@@ -21,35 +63,32 @@ export default function Experience() {
     {
       empresa: "Bosch",
       cargo: "Aprendiz",
-      link: "https://www.bosch.com.br/",
       periodo: "Jun 2024 - Atual",
       descricao: "Jovem Aprendiz em Desenvolvimento de Sistemas, pelp Programa DTA (Digital Talent Academy).",
-      stacks: ['FaReact', 'SiNextdotjs', 'FaNodeJs']
+      stacks: ["SiSpringboot", "FaReact", "SiInsomnia", "SiPostman",  "SiGraphql", "SiFastapi", "SiMicrosoftazure", "FaAws",  "FaDocker", "SiPowerautomate", "SiKubernetes", "SiDocusaurus","SiLangchain",  "SiJenkins"]
     },
     {
       empresa: "Fatec",
       cargo: "Gestão TI",
-      link: "#",
       periodo: "Jun 2024 - Atual",
       descricao: "Atualmente cursando GTI na Fatec Campinas (3° Semestre).",
-      stacks: ['FaJs', 'FaHtml5', 'FaCss3Alt']
+      stacks: ['FaJs', 'FaHtml5', 'FaCss3Alt', "FaReact", 'SiMysql', 'SiPostgresql', 'FaDatabase']
     },
     {
       empresa: "Etec",
       cargo: "Desenvolvimento de Sistemas",
-      link: "#",
       periodo: "Jun 2022 - Dez 2023",
       descricao: "Primeira formação na área de Ti, onde adiquiri conhecimento técnico e uma boa base em lógica.",
-      stacks: ['FaAws', 'FaDocker', 'FaGitAlt']
+      stacks: ['FaAws', 'FaDocker', 'FaGitAlt', 'FaPhp']
     },
-    {
-      empresa: "Senai",
-      cargo: "Desenvolvimento de Sistemas",
-      link: "#",
-      periodo: "Jun 2024 - Atual",
-      descricao: "Formação em conjunto com a Bosch, onde desenvolvi minhas capacidades técnicas e profissionais.",
-      stacks: ['FaAws', 'FaDocker', 'FaGitAlt']
-    }
+    // {
+    //   empresa: "Senai",
+    //   cargo: "Desenvolvimento de Sistemas",
+    //   link: "#",
+    //   periodo: "Jun 2024 - Atual",
+    //   descricao: "Formação em conjunto com a Bosch, onde desenvolvi minhas capacidades técnicas e profissionais.",
+    //   stacks: ['FaAws', 'FaDocker', 'FaGitAlt']
+    // }
   ];
 
   const [selecionado, setSelecionado] = useState(0);
