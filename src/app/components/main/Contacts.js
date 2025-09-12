@@ -1,8 +1,12 @@
-import React from 'react';
+'use client';
 import { FaEnvelope, FaPhone, FaLinkedin, FaGithub } from 'react-icons/fa';
-
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export function MainContacts(){
- 
+useEffect(() => {
+     AOS.init({ duration: 1000, once: true });
+   }, []);
 // Array de dados para os contatos
 const contatosData = [
   // {
@@ -33,7 +37,7 @@ const contatosData = [
 
 // Componente reutilizável para cada cartão de contato
 const ContactCard = ({ icon: Icon, label, value, link }) => (
-  <div className="flex flex-col items-center p-4">
+  <div data-aos="fade-up" className="flex flex-col items-center p-4">
     <a 
       href={link} 
       className="flex items-center justify-center w-16 h-16 rounded-full  text-white mb-4 transition-transform transform hover:scale-110"

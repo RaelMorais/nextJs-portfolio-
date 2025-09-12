@@ -1,11 +1,16 @@
-import React from 'react';
+'use client';
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const ferfolio = '/photos/ferfolio.png';
 const mange = '/photos/mange.png'; 
 const yeapi = '/photos/yeapi.png'; 
 const hpdex  = '/photos/hpdex.png'; 
 const fast = '/photos/fastapi.png'
 export function MainProjects(){
-
+   useEffect(() => {
+    AOS.init({ duration: 1000, once: true });
+  }, []);
 const projects = [
   {
     title: "eDUcar",
@@ -198,7 +203,7 @@ const all_projects = [
 ];
 const ProjectCard = ({ title, image, alt, technologies, description, link }) => {
     return (
-      <div className="relative group  overflow-hidden shadow-lg" id='#projetos'>
+      <div data-aos="fade-up" className="relative group  overflow-hidden shadow-lg" id='#projetos'>
         {/* Usando uma div com imagem de fundo */}
             <div
           className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105 bg-cover bg-center"

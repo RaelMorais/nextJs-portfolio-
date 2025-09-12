@@ -1,5 +1,13 @@
+'use client';
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export function MainSkill(){
-      const skills = [
+useEffect(() => {
+     AOS.init({ duration: 1000, once: true });
+   }, []);
+
+const skills = [
     // { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", alt: "Bootstrap" },
     { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg", alt: "Spring Boot" },
     // { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg", alt: "Java" },
@@ -28,7 +36,7 @@ export function MainSkill(){
   ];
 
     return(
-      <section className="min-h-screen flex flex-col items-center justify-center gap-15 pt-45">
+      <section data-aos="fade-up" className="min-h-screen flex flex-col items-center justify-center gap-15 pt-45">
         <h1 className="text-3xl font-bold text-white">Minhas Stacks</h1>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-7 gap-6">
           {skills.map((skill, index) => (
