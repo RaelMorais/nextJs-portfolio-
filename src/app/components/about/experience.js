@@ -10,7 +10,7 @@ import {
 } from 'react-icons/si';
 
 
-// Objeto de mapeamento para os ícones
+
 const stackIcons = {
   'FaReact': FaReact,
   'SiNextdotjs': SiNextdotjs,
@@ -81,14 +81,14 @@ export default function Experience() {
       descricao: "Primeira formação na área de Ti, onde adiquiri conhecimento técnico e uma boa base em lógica.",
       stacks: ['FaAws', 'FaDocker', 'FaGitAlt', 'FaPhp']
     },
-    // {
-    //   empresa: "Senai",
-    //   cargo: "Desenvolvimento de Sistemas",
-    //   link: "#",
-    //   periodo: "Jun 2024 - Atual",
-    //   descricao: "Formação em conjunto com a Bosch, onde desenvolvi minhas capacidades técnicas e profissionais.",
-    //   stacks: ['FaAws', 'FaDocker', 'FaGitAlt']
-    // }
+    {
+      empresa: "Senai",
+      cargo: "Desenvolvimento de Sistemas",
+      link: "#",
+      periodo: "Jun 2024 - Atual",
+      descricao: "Formação em conjunto com a Bosch, onde desenvolvi minhas capacidades técnicas e profissionais.",
+      stacks: ['FaAws', 'FaDocker', 'FaGitAlt']
+    }
   ];
 
   const [selecionado, setSelecionado] = useState(0);

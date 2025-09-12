@@ -9,7 +9,7 @@ export function MainHeader(){
   }, []);
     return(
     <>
-        <div  data-aos="fade-up" className="w-56 h-56 rounded-full border-4 border-purple-600  shadow-lg shadow-purple-800 overflow-hidden">
+        <div  data-aos="fade-up" className="w-96 h-96 rounded-full border-4 border-purple-600  shadow-lg shadow-purple-800 overflow-hidden">
             <img 
               src={meImage}
               alt="Israel Santana" 
@@ -32,7 +32,7 @@ export function MainHeader(){
 
       <div data-aos="fade-up" className="flex flex-col items-center gap-4">
         <a
-          href="/Israel_CV.pdf"
+          href="/files/Curriculo_Israel.pdf"
           download
           className="px-6 py-3 bg-purple-700 hover:bg-purple-600 transition rounded-full text-white font-medium shadow-md shadow-purple-500"
         >
@@ -40,7 +40,7 @@ export function MainHeader(){
         </a>
         <a
           href="#contact"
-          className="text-gray-200 text-sm hover:text-blue-500 underline"
+          className="text-sm text-gray-200 hover:text-gray-400"
         >
           Entre em contato!
         </a>

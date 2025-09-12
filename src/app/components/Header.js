@@ -85,13 +85,14 @@ export function Header() {
         >
           <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
             <a
-              className="font-medium text-purple-500 focus:outline-none"
+              className="font-large  text-gray-200 hover:text-gray-400  focus:outline-none"
               href="/"
               aria-current="page"
               onClick={() => setIsOpen(false)}
             >
               Home
             </a>
+          
             {/* <a
               className="font-medium text-gray-200 hover:text-gray-400 focus:outline-none focus:text-gray-400"
               href="/aboutMe"
@@ -127,6 +128,8 @@ export function Header() {
               Sobre mim
               
             </a>
+
+
           </div>
         </div>
       </nav>

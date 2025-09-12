@@ -1,14 +1,13 @@
 import React from 'react';
 import { FaInstagram, FaSteam, FaLinkedin, FaGithub } from 'react-icons/fa';
 
-// Componente reutilizável para os links sociais
-// A classe `text-gray-400 hover:text-white` controla a cor
+// `text-gray-400 hover:text-white` 
 const SocialLink = ({ href, ariaLabel, children }) => (
   <a href={href} className="text-gray-400 hover:text-white" aria-label={ariaLabel}>
     {children}
   </a>
 );
-const today = new Date(); // Cria um objeto de data com a data atual
+const today = new Date(); 
 const year = today.getFullYear();
 
 export function Footer() {

@@ -7,7 +7,7 @@ export function MainContacts(){
 useEffect(() => {
      AOS.init({ duration: 1000, once: true });
    }, []);
-// Array de dados para os contatos
+//arrrrrrei
 const contatosData = [
   // {
   //   icon: FaEnvelope,
@@ -35,7 +35,6 @@ const contatosData = [
   },
 ];
 
-// Componente reutilizável para cada cartão de contato
 const ContactCard = ({ icon: Icon, label, value, link }) => (
   <div data-aos="fade-up" className="flex flex-col items-center p-4">
     <a 
