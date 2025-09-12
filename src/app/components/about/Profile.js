@@ -1,9 +1,14 @@
 // src/components/ProfileCard.jsx
-import React from 'react';
+'use client';
 const meImage = '/photos/me.jpg';
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Profile(){
-
+  useEffect(() => {
+       AOS.init({ duration: 1000, once: true });
+     }, []);
   const birthYear = 2006;
   const birthMonth = 1; 
   const birthDay = 19; 
@@ -21,7 +26,7 @@ export default function Profile(){
   };
 
   return (
-    <div className="pt-40">
+    <div data-aos="fade-up" className="pt-40">
       <div className="border-2 border-white flex flex-col md:flex-row gap-4 w-full max-w-[900px] mx-auto p-4">
         
         {/* Imagem */}
@@ -36,9 +41,9 @@ export default function Profile(){
         {/* Texto */}
         <div className="flex flex-col flex-1 p-2 md:pt-20 text-center md:text-left">
           <h1 className="text-purple-600 font-bold text-2xl">Um pouco sobre mim</h1>
-          <p className="text-[32px] md:text-[50px] font-bold text-white-600">Israel Santana</p>
-          <h1><span className="font-semibold text-gray-600">Fullstack Dev. & AIoT</span></h1>
-          <h2 className="text-sm md:text-base leading-relaxed text-white-600">
+          <p className="text-[32px] md:text-[50px] font-bold text-gray-200">Israel Santana</p>
+          <h1><span className="text-purple-600 font-bold">Fullstack Dev. & AIoT</span></h1>
+          <h2 className="text-sm md:text-base leading-relaxed text-gray-200">
             Me chamo Israel Santana, tenho {getAge()} anos. 
             Gestão de Ti na Fatec. Atualmente, trabalho como aprendiz na Bosch Brasil, onde busco me desenvolver 
             profissionalmente e pessoalmente, sempre em busca de crescimento e aquisição de conhecimento. 

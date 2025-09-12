@@ -6,7 +6,8 @@ const ferfolio = '/photos/ferfolio.png';
 const mange = '/photos/mange.png'; 
 const yeapi = '/photos/yeapi.png'; 
 const hpdex  = '/photos/hpdex.png'; 
-const fast = '/photos/fastapi.png'
+const fast = '/photos/fastapi.png';
+const educar = '/photos/educar.png'; 
 export function MainProjects(){
    useEffect(() => {
     AOS.init({ duration: 1000, once: true });
@@ -14,7 +15,7 @@ export function MainProjects(){
 const projects = [
   {
     title: "eDUcar",
-    image: "https://kinsta.com/wp-content/uploads/2020/08/tiger-jpg.jpg",
+    image: educar,
     alt: "Collage.fm",
     technologies: [
       {
@@ -211,14 +212,14 @@ const ProjectCard = ({ title, image, alt, technologies, description, link }) => 
           aria-label={alt}
         ></div>
         <div className="absolute inset-0 bg-opacity-50 flex flex-col justify-center items-center text-center p-4 transition-opacity duration-300 group-hover:bg-opacity-75">
-          <h4 className="text-blue-400 text-lg font-bold mb-2">{title}</h4>
+          {/* <h4 className="text-black-200 text-lg font-bold mb-2">{title}</h4> */}
           <div className="flex space-x-2 text-purple-500 mb-4">
             {technologies.map((tech, index) => (
               <img key={index} src={tech.src} alt={tech.name} className="w-6 h-6" />
             ))}
           </div>
-          <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <p className="text-black text-sm mb-4">{description}</p>
+          <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20 backdrop-blur-sm transition-opacity duration-300 group-hover:opacity-100">
+            <p className="text-white text-m mb-4">{description}</p>
             <a
               href={link}
               className="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 transition"

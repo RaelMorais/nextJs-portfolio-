@@ -86,7 +86,7 @@ export function Header() {
           <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
             <a
               className="font-medium text-purple-500 focus:outline-none"
-              href="#"
+              href="/"
               aria-current="page"
               onClick={() => setIsOpen(false)}
             >
