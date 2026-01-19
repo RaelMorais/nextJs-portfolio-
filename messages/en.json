@@ -1,0 +1,14 @@
+{
+  "Footer": {
+    "rights": "All Rights Reserved.",
+    "linkedin": "LinkedIn page",
+    "github": "GitHub page",
+    "steam": "Steam page"
+  }, 
+   "Header": {
+    "brand": "Brand",
+    "toggle": "Toggle navigation",
+    "home": "Home",
+    "about": "About me"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Footer": {
+    "rights": "Todos os direitos reservados.",
+    "linkedin": "Página do LinkedIn",
+    "github": "Página do GitHub",
+    "steam": "Página da Steam"
+  }, 
+  "Header": {
+    "brand": "Marca",
+    "toggle": "Alternar navegação",
+    "home": "Início",
+    "about": "Sobre mim"
+  }
+}
+

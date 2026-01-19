@@ -1,41 +1,31 @@
-import React from 'react';
-import { FaInstagram, FaSteam, FaLinkedin, FaGithub } from 'react-icons/fa';
+"use client";
 
-// `text-gray-400 hover:text-white` 
-const SocialLink = ({ href, ariaLabel, children }) => (
-  <a href={href} className="text-gray-400 hover:text-white" aria-label={ariaLabel}>
-    {children}
-  </a>
-);
-const today = new Date(); 
-const year = today.getFullYear();
+import { useTranslations } from "next-intl";
+import { FaLinkedin, FaGithub, FaSteam } from "react-icons/fa";
 
 export function Footer() {
+  const t = useTranslations("Footer");
+
+  const year = new Date().getFullYear();
+
   return (
-    <footer className="w-full">
-      <div className="px-4 py-6 md:flex md:items-center md:justify-between bg-black">
-        <span className="text-sm text-white sm:text-center">
-          © {year} Israel Santana™. All Rights Reserved.
-        </span>
-        <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
+    <footer className="w-full bg-black text-white p-6">
+      <span>
+        © {year} Israel Santana™. {t("rights")}
+      </span>
 
-          <SocialLink href="https://www.linkedin.com/in/israelstnmorais/" ariaLabel="LinkedIn page">
-            <FaLinkedin className="w-6 h-6" />
-            <span className="sr-only">LinkedIn page</span>
-          </SocialLink>
-            
-          
-          <SocialLink href="https://github.com/RaelMorais" ariaLabel="Github page">
-            <FaGithub className="w-6 h-6" />
-            <span className="sr-only">Github page</span>
-          </SocialLink>
-
-          <SocialLink href="https://steamcommunity.com/id/real_rael06" ariaLabel="Steam page">
-            <FaSteam className="w-6 h-6" />
-            <span className="sr-only">Steam page</span>
-          </SocialLink>
-        </div>
+      <div className="flex gap-4 mt-4">
+        <a href="https://www.linkedin.com" aria-label={t("linkedin")}>
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com" aria-label={t("github")}>
+          <FaGithub />
+        </a>
+        <a href="https://steamcommunity.com" aria-label={t("steam")}>
+          <FaSteam />
+        </a>
       </div>
     </footer>
   );
 }
+
